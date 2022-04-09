@@ -20,14 +20,16 @@ def compare(l1,l2):
     set(l1)
     set(l2)
     if l1 == l2:
+        print('The winning numbers are: {}'.format(numbers))
         print(tprint('You_won_1,000,000$'))
     else:
+        print('The winning numbers are: {} \nYou bet on: {}'.format(numbers, chosen_num))
         tprint('You_lose_:c')
-        print('The winning numbers are:')
-        print(numbers)
 
-# Compared numbers
+# Compareing numbers
 #print(numbers)
 #print(chosen_num)
 compare(numbers,chosen_num)
+
+
 
