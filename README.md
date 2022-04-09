@@ -1,2 +1,2 @@
-Install art module in python 
-Have fun with your lotto game :D
+#Have fun with your lotto game :D
+1.Install art module in python
